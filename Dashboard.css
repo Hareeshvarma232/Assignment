@@ -1,0 +1,28 @@
+.dashboard {
+     background-color: aqua;
+     height: 1800px
+    
+}
+.dashboard h1 {
+    text-align:center ;
+}
+.search-bar {
+             /* Center horizontally */
+               /* Center vertically */
+   margin-left: 600px;
+   margin-bottom: 25px;
+   height: 25px;
+   width: 250px;
+
+}
+.dashboard img {
+      height: 25px;
+      margin-left: 5px;
+      padding-top: 25px;
+      margin-top: 20px;
+      
+}
+.div span {
+     margin-top: 0;
+     padding: 0;
+}
