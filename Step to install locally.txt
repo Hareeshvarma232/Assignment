@@ -1,0 +1,84 @@
+Hi I am Murarishetti Hareesh
+
+Please find attached the assignment project. I have included a README file with detailed instructions on how to run the application locally.
+
+
+
+
+Steps to Run the Application Locally :
+
+Download the Project Files:
+
+  
+
+Open your terminal (Command Prompt, PowerShell, or Terminal on Mac/Linux).
+Navigate to the directory where you extracted the project files using the cd command. For example:
+bash
+
+Create a folder:Project
+
+Install Node.js on project folder
+
+Ensure that you have Node.js installed on your machine. You can download it from Node.js official website. Installing Node.js will also install npm (Node Package Manager) which is required to manage dependencies.
+Install Dependencies:
+
+Once you are in the project directory, install all the necessary dependencies required for the project using the following command:
+bash
+
+npm install:
+This command will read the package.json file in your project directory and install all the necessary dependencies listed there.
+
+Start the Application:
+
+Start the React application by running the following command:
+bash
+Cre
+After this
+--npm install @reduxjs/toolkit;
+and  
+ ---npm install react-redux;
+then
+---npm create vite@latest 
+then you to set the file name as assignment
+select the framework which is React.js
+then now select the script which is JavaScript.
+
+
+now enter into to created file that is using cmd --cd assignment.
+
+use cmd --npm start and then use another cmd --npm run dev
+
+After this 
+   
+This command will start the development server and open the application in your default web browser. The application will typically be accessible at http://localhost:5137.
+
+View and Test the Application:
+
+Open a web browser and navigate to http://localhost:5137 to view the application.
+You can now interact with the application, add or remove widgets, search for widgets, and see the updates live.
+Stop the Application:
+
+To stop the application, you can press Ctrl + C in the terminal where the server is running.
+Additional Information
+
+bash
+Copy code
+npm run build
+This will create a build directory with all the files you need to deploy the application.
+
+Running Tests: If the application includes tests, you can run them using:
+
+bash
+Copy code
+npm test
+This will launch the test runner in the interactive watch mode.
+
+Further Customization: Refer to the README.md file (if provided) in the project folder for more details on customization and additional features.
+
+Following these steps will allow you to run and test the React application on your local machine without using Git.
+
+
+
+
+
+
